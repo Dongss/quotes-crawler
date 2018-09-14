@@ -1,0 +1,24 @@
+{
+  "name": "quotes-crawler",
+  "version": "0.1.0",
+  "description": "quotes-crawler",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --skipLibCheck",
+    "lint": "tslint 'src/**/*.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["quotes", "crawler", "typescript"],
+  "author": "dongsoso@hotmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.8",
+    "@types/node": "^10.5.5",
+    "source-map-support": "^0.5.6",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
